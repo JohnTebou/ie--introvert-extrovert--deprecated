@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply scroll-smooth;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    @apply font-sans;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@layer components {
+  .heroIm {
+    margin: 0;
+    padding: 0;
+    background-image: url("./assets/images/Hero.png");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btc {
+    font-size: 0.9rem;
+    display: inline-block;
+
+    margin: 0px 5px 0px 0px;
+    padding: 1rem;
+    border-radius: 5px;
+    @apply hover:btc-bg duration-200;
+  }
+
+  .login {
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 350px;
+    height: 450px;
+
+    border-radius: 10px;
+    border-color: white;
+    border-width: 0.2px;
+
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@layer utilities {
+  .mt-30 {
+    margin-top: 30px;
+  }
+
+  .text-hlogo {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+  }
+
+  .font-sc {
+    font-stretch: semi-condensed;
+  }
+
+  .fh-style {
+    background-color: rgba(0, 0, 0, 0);
+    height: 55px;
+    @apply w-screen flex flex-row items-center;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+  }
+
+  .btc-bg {
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+
+  .ht {
+    text-align: center;
+    margin-top: 20vh;
+  }
+}

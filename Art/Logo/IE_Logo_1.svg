@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="230.74" height="310.03" viewBox="0 0 230.74 310.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: Georgia, Georgia;
+        font-size: 269.67px;
+        letter-spacing: -.16em;
+      }
+
+      .cls-3 {
+        fill: #8b15ff;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(0 228.26)"><tspan class="cls-3" x="0" y="0">I</tspan><tspan class="cls-1" x="60.85" y="0">E</tspan></text>
+</svg>
